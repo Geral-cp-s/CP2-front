@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#logo{
+    margin-left: 45%;
+}
+
+nav ul{
+    list-style-type: none;
+    margin-left: 25%;
+    padding: 0;
+}
+
+nav ul li{
+    display: inline;
+    margin-right: 20px;
+    float: left;
+}
+
+nav a{
+    padding: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    color:rgb(192, 180, 15)
+
+}
