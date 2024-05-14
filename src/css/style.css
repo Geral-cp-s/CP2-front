@@ -1,3 +1,5 @@
+/*CONFIGURAÇÕES GERAIS E DA PAGINA INDEX*/
+
 *{
     margin: 0;
     padding: 0;
@@ -33,6 +35,13 @@ hr{
     margin-left: 50px;
     margin-right: 50px;
     width: 1255px;
+}
+
+h1{
+    padding-left: 5%;
+    padding-right: 5%;
+    font-family: sans-serif;
+    color: rgb(192, 180, 15);
 }
 
 #banner{
@@ -74,4 +83,83 @@ footer p{
     font-size: 1rem;
     font-style: italic;
     font-weight: 500;
+}
+
+/*CONFIGURAÇÕES DA PÁGINA ACOMODAÇÕES*/
+#acomodacoes1{
+    background-color: rgb(180, 180, 180);
+    width: 260px;
+    height: 230px;
+    border-radius: 12px;
+    box-shadow: #aaaa;
+    float: left;
+    margin-left: 5%;
+}
+#acomodacoes1 img{
+    width: 250px;
+    height: 190px;
+    padding-left:5px;
+    padding-top: 5px;
+}
+#acomodacoes1 div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
+#acomodacoes1 h2{
+    font-size: 1.5rem;
+}
+
+#acomodacoes2{
+    background-color: rgb(180, 180, 180);
+    width: 260px;
+    height: 230px;
+    border-radius: 12px;
+    box-shadow: #aaaa;
+    float: left;
+    margin-left: 15%;
+}
+#acomodacoes2 img{
+    width: 250px;
+    height: 190px;
+    padding-left:5px;
+    padding-top: 5px;
+}
+#acomodacoes2 div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
+#acomodacoes2 h2{
+    font-size: 1.5rem;
+}
+
+#acomodacoes3{
+    background-color: rgb(180, 180, 180);
+    width: 260px;
+    height: 230px;
+    border-radius: 12px;
+    box-shadow: #aaaa;
+    float: left;
+    margin-left: 17%;
+}
+#acomodacoes3 img{
+    width: 250px;
+    height: 190px;
+    padding-left:5px;
+    padding-top: 5px;
+}
+#acomodacoes3 div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
+#acomodacoes3 h2{
+    font-size: 1.5rem;
 }
