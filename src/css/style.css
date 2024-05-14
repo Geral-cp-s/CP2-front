@@ -190,7 +190,6 @@ footer p{
 }
 
 /*QUARTO TRIPLO*/
-/*QUARTO DUPLO*/
 #imgtriplo{
     width: 700px;
     height: 350px;
@@ -216,7 +215,6 @@ footer p{
 }
 
 /*QUARTO QUADRIPLO*/
-/*QUARTO DUPLO*/
 #imgquadri{
     width: 700px;
     height: 350px;
@@ -239,4 +237,18 @@ footer p{
 }
 #proximo a{
     color: rgb(192, 180, 15);
+}
+
+/*LOCALIZAÇÃO*/
+#mapa{
+    float: right;
+}
+#local{
+    padding-bottom: 30%;
+}
+#local h2{
+    font-family: sans-serif;
+    margin-left: 5%;
+    padding-top: 3%;
+    padding-bottom: 1%;
 }
