@@ -1,5 +1,5 @@
 // Realiza o slideShow
-let imagens=['./src/img/img1.png','./src/img/img2.png','./src/img/img3.png','./src/img/img4.png','./src/img/img5.png','./src/img/img6.png'];
+let imagens=['./src/img/duplo1.jpg','./src/img/duplo2.jpg','./src/img/duplo3.jpg'];
 let index=0; 
 let time =3000;
 
@@ -14,6 +14,3 @@ function slideShow(){
 }
 
 slideShow();
-<section id="duplo">
-            <img id="imgduplo">
-    </section>

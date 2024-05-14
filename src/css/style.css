@@ -163,3 +163,64 @@ footer p{
 #acomodacoes3 h2{
     font-size: 1.5rem;
 }
+
+/*QUARTO DUPLO*/
+#imgduplo{
+    width: 700px;
+    height: 350px;
+    float: right;
+    margin-right: 5%;
+}
+#duplo{
+    padding-top: 10px;
+}
+#duplo ul{
+    margin-left: 7%;
+}
+.valor{
+    font-size: 2rem;
+    font-weight: bolder;
+}
+#proximo{
+    font-size: 1.5rem;
+    margin-left: 5%;
+}
+#proximo a{
+    color: rgb(192, 180, 15);
+}
+
+/*QUARTO TRIPLO*/
+#imgtriplo{
+    width: 700px;
+    height: 350px;
+    float: right;
+    margin-right: 5%;
+}
+#triplo{
+    padding-top: 10px;
+}
+#triplo ul{
+    margin-left: 7%;
+}
+.valor{
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+/*QUARTO QUADRIPLO*/
+#imgquadri{
+    width: 700px;
+    height: 350px;
+    float: right;
+    margin-right: 5%;
+}
+#quadri{
+    padding-top: 10px;
+}
+#quadri ul{
+    margin-left: 7%;
+}
+.valor{
+    font-size: 2rem;
+    font-weight: bolder;
+}
