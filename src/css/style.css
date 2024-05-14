@@ -190,6 +190,7 @@ footer p{
 }
 
 /*QUARTO TRIPLO*/
+/*QUARTO DUPLO*/
 #imgtriplo{
     width: 700px;
     height: 350px;
@@ -206,21 +207,36 @@ footer p{
     font-size: 2rem;
     font-weight: bolder;
 }
+#proximo{
+    font-size: 1.5rem;
+    margin-left: 5%;
+}
+#proximo a{
+    color: rgb(192, 180, 15);
+}
 
 /*QUARTO QUADRIPLO*/
+/*QUARTO DUPLO*/
 #imgquadri{
     width: 700px;
     height: 350px;
     float: right;
     margin-right: 5%;
 }
-#quadri{
+#quadriplo{
     padding-top: 10px;
 }
-#quadri ul{
+#quadriplo ul{
     margin-left: 7%;
 }
 .valor{
     font-size: 2rem;
     font-weight: bolder;
+}
+#proximo{
+    font-size: 1.5rem;
+    margin-left: 5%;
+}
+#proximo a{
+    color: rgb(192, 180, 15);
 }
