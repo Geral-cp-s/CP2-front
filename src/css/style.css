@@ -255,72 +255,39 @@ footer p{
 
 /*Contato*/
 
-form{
-    margin-right: 15%;
-}
-#form{
+form {
+    margin: 0 auto;
+    width: 400px;
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 1em;
     float: right;
-    margin-right: 5%;
-    margin-top: 3%;
+    margin-right: 15%;
+    background-color: whitesmoke;
 }
-#form input{
-    background-color: aliceblue;
+form div + div {
+    margin-top: 1em;
 }
-#form textarea  {
-    background-color: aliceblue;
+label {
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+    color: #000;
 }
-
-/*nome*/
-#nome{
-    font-family: sans-serif;
+input, textarea {
+  font: 1em sans-serif;
+  width: 300px;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 1px solid #999;
+  background-color: rgba(194, 183, 183, 0.781);
 }
-#nome label{
-    font-weight: 600;
-}
-
-/*email*/
-#email{
-    font-family: sans-serif;
-}
-#email label{
-    font-weight: 600;
-}
-
-/*assunto*/
-#assunto{
-    font-family: sans-serif;
-}
-#assunto label{
-    font-weight: 600;
-}
-
-/*cheada*/
-#chegada{
-    font-family: sans-serif;
-}
-#chegada label{
-    font-weight: 600;
-}
-
-/*saida*/
-#saida{
-    font-family: sans-serif;
-}
-#saida label{
-    font-weight: 600;
-}
-
-/*txt*/
-#txt{
-    font-family: sans-serif;
-    float: left;
-}
-#txt label{
-    font-weight: 600;
+input:focus, textarea:focus{
+  border-color: #000;
 }
 
 /*informações*/
 #info{
     margin-top: 3%;
-    padding-bottom: 440px;
+    padding-bottom: 300px;
 }
