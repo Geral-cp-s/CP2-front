@@ -252,3 +252,75 @@ footer p{
     padding-top: 3%;
     padding-bottom: 1%;
 }
+
+/*Contato*/
+
+form{
+    margin-right: 15%;
+}
+#form{
+    float: right;
+    margin-right: 5%;
+    margin-top: 3%;
+}
+#form input{
+    background-color: aliceblue;
+}
+#form textarea  {
+    background-color: aliceblue;
+}
+
+/*nome*/
+#nome{
+    font-family: sans-serif;
+}
+#nome label{
+    font-weight: 600;
+}
+
+/*email*/
+#email{
+    font-family: sans-serif;
+}
+#email label{
+    font-weight: 600;
+}
+
+/*assunto*/
+#assunto{
+    font-family: sans-serif;
+}
+#assunto label{
+    font-weight: 600;
+}
+
+/*cheada*/
+#chegada{
+    font-family: sans-serif;
+}
+#chegada label{
+    font-weight: 600;
+}
+
+/*saida*/
+#saida{
+    font-family: sans-serif;
+}
+#saida label{
+    font-weight: 600;
+}
+
+/*txt*/
+#txt{
+    font-family: sans-serif;
+    float: left;
+}
+#txt label{
+    font-weight: 600;
+}
+
+/*informações*/
+#info{
+    margin-top: 3%;
+    padding-bottom: 440px;
+}
