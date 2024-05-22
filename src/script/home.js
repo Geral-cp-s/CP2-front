@@ -1,5 +1,5 @@
 // Realiza o slideShow do Inicio
-let imagens=['./src/img/img1.png','./src/img/img2.png','./src/img/img3.png','./src/img/img4.png','./src/img/img5.png','./src/img/img6.png'];
+let imagens=['img1.png','img2.png','img3.png','img4.png','img5.png','img6.png'];
 let index=0; 
 let time =3000;
 
