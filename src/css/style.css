@@ -27,7 +27,8 @@ nav a{
     text-transform: uppercase;
     display: flex;
     justify-content: center;
-    color:rgb(192, 180, 15)
+    color:rgb(192, 180, 15);
+    font-weight: 800;
 
 }
 
@@ -44,8 +45,9 @@ h1{
     color: rgb(192, 180, 15);
 }
 
-#banner{
-    margin-left: 27%;
+#imgbanner{
+    width: 1350px;
+    height: 50%;
 }
 
 p{
@@ -83,6 +85,34 @@ footer p{
     font-size: 1rem;
     font-style: italic;
     font-weight: 500;
+}
+
+/*CONFIGURAÇÕES DA IMAGENS DE SERVIÇOS*/
+#serv div{
+    float: left;
+    margin-left: 8%;
+}
+#serv div p{
+    font-style: oblique;
+    color: rgb(192, 180, 15);
+    font-weight: 600;
+}
+#PNP{
+    width: 250px;
+    height: 170px;
+    border-radius: 45%;
+}
+#inf{
+    width: 250px;
+    border-radius: 45%;
+}
+#serv-quarto{
+    width: 250px;
+    border-radius: 45%;
+}
+#refeicao{
+    width: 250px;
+    border-radius: 45%;
 }
 
 /*CONFIGURAÇÕES DA PÁGINA ACOMODAÇÕES*/
@@ -290,4 +320,12 @@ input:focus, textarea:focus{
 #info{
     margin-top: 3%;
     padding-bottom: 300px;
+}
+
+/*SERVIÇOS*/
+#todos div img{
+    width: 300px;
+    float: left;
+    margin: 1%;
+    
 }
