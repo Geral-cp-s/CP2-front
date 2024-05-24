@@ -354,3 +354,23 @@ input:focus, textarea:focus{
 .serv div h2{
     font-size: 1.5rem;
 }
+
+/*GALERIA*/
+
+.galeria{
+    background-color: rgb(180, 180, 180);
+    width: 260px;
+    height: 200px;
+    border-radius: 12px;
+    box-shadow: rgba(70, 60, 60, 0.667);
+    float: left;
+    margin-left: 5%;
+    margin-bottom: 3%;
+}
+.galeria img{
+    width: 250px;
+    height: 190px;
+    padding-left:5px;
+    padding-top: 5px;
+    border-radius: 4%;
+}
